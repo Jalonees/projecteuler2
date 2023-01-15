@@ -10,7 +10,7 @@ while b < 4000001:
         d = b
     elif b % 2 == 1:
         d = 0
-    if total + d < 4000001:
+    if b < 4000001:
         total = total + d
     else:
         total = total

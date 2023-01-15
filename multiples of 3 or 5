@@ -1,0 +1,15 @@
+# Multiples of 3 or 5
+total = 0
+for number in range(1,1000):
+    remainder = number % 3
+    if remainder == 0:
+        total = total + number
+for number in range(1,1000):
+    remainder = number % 5
+    if remainder == 0:
+        total = total + number
+for number in range(1,1000):
+    remainder = number % 15
+    if remainder == 0:
+        total = total - number
+print(total)

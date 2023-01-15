@@ -1,0 +1,9 @@
+# Sum square difference
+sumofsquares = 0
+sumofnatnos = 0
+for n in range(101):
+    sumofsquares = sumofsquares + (n * n)
+for m in range(101):
+    sumofnatnos = sumofnatnos + m
+difference = sumofnatnos * sumofnatnos - sumofsquares
+print(difference)

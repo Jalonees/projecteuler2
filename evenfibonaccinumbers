@@ -2,7 +2,7 @@
 a = 0
 b = 1
 total = 0
-while b < 100:
+while b < 4000001:
     c = a + b
     a = b
     b = c

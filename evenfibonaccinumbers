@@ -1,0 +1,17 @@
+#Even Fibonacci numbers
+a = 0
+b = 1
+total = 0
+while b < 100:
+    c = a + b
+    a = b
+    b = c
+    if b % 2 == 0:
+        d = b
+    elif b % 2 == 1:
+        d = 0
+    if total + d <100:
+        total = total + d
+    else:
+        total = total
+print(total)
